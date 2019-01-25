@@ -8,7 +8,6 @@
 #define GARBAGE 0xA3
 typedef char byte;
 
-
 /**
  * @brief 申请内存
  *
@@ -119,7 +118,6 @@ bool replace(byte* old,int oldLen,const char* str,int num,byte** new,int* newLen
 	}
 	return true;
 }
-
 
 int main(){
 	char* a = "abc%HM%cdef%VLAN";

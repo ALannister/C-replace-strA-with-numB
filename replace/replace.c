@@ -124,6 +124,7 @@ int main(){
 	char* new;
 	int newLen;
 	char* b = "HM";
+	// 示例1
 	printf("\nbefore:\n");
 	printf("%s\n",a);
 	printf("replace %s with %d\n",b,23456789);
@@ -131,7 +132,7 @@ int main(){
 		printf("after:\n");
 		printf("%s\n",new);
 	}
-
+	// 示例2
 	printf("\n\nbefore:\n");
 	printf("%s\n",a);
 	printf("replace %s with %d\n",b,2);
